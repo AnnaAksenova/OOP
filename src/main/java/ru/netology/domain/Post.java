@@ -19,4 +19,13 @@ public class Post {
     private int editPost;
     private String postText;
     private int advertisingInfo;
+    //изменения
+    private int createdBy;
+    private int replyOwnerId;
+    private int replyPostId;
+    private int friendsOnly;
+    private CopyrightInfo copyrightInfo;
+    private String userReposted;
+    private PostSource postSource;
+    private DonutInfo donutInfo;
     }
