@@ -11,8 +11,8 @@ public class Post {
     private int date;
     private int communityId;
     private int time;
-    private int PhotoCommunityId;
-    private boolean InBookmark;
+    private int photoCommunityId;
+    private boolean inBookmark;
     private int haveTimer;
     private int pinPost;
     private int deletePost;
@@ -25,7 +25,6 @@ public class Post {
     private int replyPostId;
     private int friendsOnly;
     private CopyrightInfo copyrightInfo;
-    private String userReposted;
     private PostSource postSource;
     private DonutInfo donutInfo;
     }
